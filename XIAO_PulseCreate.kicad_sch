@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "XIAO PluseCreate PCB")
-		(date "2025-02-09")
-		(rev "1.01")
+		(date "2025-02-11")
+		(rev "1.02")
 		(company "Chibi-T International")
 		(comment 1 "Tomohiro Kusu")
 	)
@@ -2797,6 +2797,12 @@
 		(uuid "0e32c85c-302c-41b6-8e22-02989743b085")
 	)
 	(junction
+		(at 48.26 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "182b565e-e287-49d0-8231-c892d7b3f7fe")
+	)
+	(junction
 		(at 106.68 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2809,6 +2815,12 @@
 		(uuid "22172ac9-1b5f-4a87-8d0a-6f84a0c64c03")
 	)
 	(junction
+		(at 130.81 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "295447ff-97e8-4ee3-ac48-a5261bcddc69")
+	)
+	(junction
 		(at 111.76 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2819,12 +2831,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5aeb373e-0972-44d5-8381-5cd7eb33a1d1")
-	)
-	(junction
-		(at 41.91 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d75906a-924e-4e0e-a665-5115f5514d5e")
 	)
 	(junction
 		(at 54.61 106.68)
@@ -2869,6 +2875,16 @@
 			(type default)
 		)
 		(uuid "07dbb239-5bb9-40b8-b3d3-f2a3bea16327")
+	)
+	(wire
+		(pts
+			(xy 48.26 80.01) (xy 54.61 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b02fd37-83bf-4939-bebe-274a0b3b008a")
 	)
 	(wire
 		(pts
@@ -2962,7 +2978,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 77.47) (xy 41.91 80.01)
+			(xy 48.26 77.47) (xy 48.26 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3062,6 +3078,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 67.31) (xy 130.81 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42aca9a2-7c79-404e-aa4a-76b33754ad25")
+	)
+	(wire
+		(pts
 			(xy 41.91 24.13) (xy 41.91 20.32)
 		)
 		(stroke
@@ -3072,7 +3098,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 74.93) (xy 45.72 74.93)
+			(xy 41.91 74.93) (xy 50.8 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3252,6 +3278,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 77.47) (xy 41.91 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc773ed-68e9-4dc5-80e0-dd1f5b89af44")
+	)
+	(wire
+		(pts
 			(xy 30.48 24.13) (xy 30.48 20.32)
 		)
 		(stroke
@@ -3262,16 +3298,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 80.01) (xy 54.61 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a087736-7db4-4e31-b7af-6e62bee44e4b")
-	)
-	(wire
-		(pts
 			(xy 92.71 146.05) (xy 86.36 146.05)
 		)
 		(stroke
@@ -3279,6 +3305,26 @@
 			(type default)
 		)
 		(uuid "7aea95a0-d203-4224-a109-9264e09b60a6")
+	)
+	(wire
+		(pts
+			(xy 130.81 78.74) (xy 130.81 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b81c7a2-26bf-421a-990c-9760152ca0bb")
+	)
+	(wire
+		(pts
+			(xy 130.81 67.31) (xy 142.24 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eee763c-f4f7-49e0-9dfb-c1ac6ba93a6a")
 	)
 	(wire
 		(pts
@@ -3302,7 +3348,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 74.93) (xy 45.72 88.9)
+			(xy 50.8 74.93) (xy 50.8 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3502,7 +3548,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 67.31) (xy 119.38 67.31)
+			(xy 130.81 71.12) (xy 130.81 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c768302d-fbeb-4c7b-8d0d-8b5e2ea4e7f9")
+	)
+	(wire
+		(pts
+			(xy 109.22 67.31) (xy 116.84 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3669,6 +3725,46 @@
 			(type default)
 		)
 		(uuid "fa6d03d6-1ab1-4385-b433-7c9f59d9f3f8")
+	)
+	(wire
+		(pts
+			(xy 48.26 80.01) (xy 41.91 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae7807b-38f9-4f1c-80ac-f0780944e6f1")
+	)
+	(label "GND"
+		(at 41.91 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "411ec959-3040-4c72-863b-6ec058be4b61")
+	)
+	(label "-"
+		(at 41.91 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68bffc4f-d42c-47ec-8a05-6a26cb9fb65f")
+	)
+	(label "+12V"
+		(at 41.91 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf3a8dfd-caae-4bc4-b5a2-a91da86f6326")
 	)
 	(global_label "SCL"
 		(shape output)
@@ -4068,7 +4164,7 @@
 	)
 	(global_label "Trigger_IN"
 		(shape output)
-		(at 119.38 67.31 0)
+		(at 142.24 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4078,7 +4174,7 @@
 		)
 		(uuid "e80babd3-01af-4dbc-87d3-d8711f1d7bd7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.7995 67.31 0)
+			(at 154.6595 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4999,6 +5095,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 130.81 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "672efe02-129d-49ee-bbc9-d08cb988ce91")
+		(property "Reference" "R4"
+			(at 133.35 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.3kΩ"
+			(at 133.35 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 132.588 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c183d49-2bbc-4eae-b4b6-b0ebefc47998")
+		)
+		(pin "1"
+			(uuid "60530f63-e0a2-45c7-aaa4-26de93e50173")
+		)
+		(instances
+			(project "XIAO_PulseCreate"
+				(path "/b9508430-4627-4aae-9faf-5aef56bd71c2"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4007")
 		(at 63.5 81.28 270)
 		(unit 1)
@@ -5494,7 +5660,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 88.9 0)
+		(at 50.8 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5503,7 +5669,7 @@
 		(fields_autoplaced yes)
 		(uuid "8480b53e-37f2-40ce-816e-8639800ac293")
 		(property "Reference" "#PWR017"
-			(at 45.72 95.25 0)
+			(at 50.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5512,7 +5678,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 93.98 0)
+			(at 50.8 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +5686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 88.9 0)
+			(at 50.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,7 +5695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 88.9 0)
+			(at 50.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,7 +5704,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 88.9 0)
+			(at 50.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,6 +5918,74 @@
 			(project "XIAO_PulseCreate"
 				(path "/b9508430-4627-4aae-9faf-5aef56bd71c2"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c5aa15b-27c4-42b3-bc99-af398caa4da7")
+		(property "Reference" "R3"
+			(at 120.65 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2kΩ"
+			(at 120.65 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 120.65 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90793dca-ee5c-4920-9ca6-51b2a3fc9c05")
+		)
+		(pin "1"
+			(uuid "9044c67e-b064-4b0c-a072-447283a76fea")
+		)
+		(instances
+			(project "XIAO_PulseCreate"
+				(path "/b9508430-4627-4aae-9faf-5aef56bd71c2"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6635,6 +6869,72 @@
 			(project ""
 				(path "/b9508430-4627-4aae-9faf-5aef56bd71c2"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc5b4a53-7a63-41b0-83d7-fa31dd5dd7b3")
+		(property "Reference" "#PWR05"
+			(at 130.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1673f175-ced4-4e73-981d-b828fad43235")
+		)
+		(instances
+			(project "XIAO_PulseCreate"
+				(path "/b9508430-4627-4aae-9faf-5aef56bd71c2"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
