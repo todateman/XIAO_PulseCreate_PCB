@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "XIAO PluseCreate PCB")
-		(date "2025-02-11")
-		(rev "1.02")
+		(date "2025-02-19")
+		(rev "1.03")
 		(company "Chibi-T International")
 		(comment 1 "Tomohiro Kusu")
 	)
@@ -6010,7 +6010,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2SK2232"
+		(property "Value" "IRLZ34N"
 			(at 68.58 107.95 0)
 			(effects
 				(font
@@ -6461,7 +6461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MA735"
+		(property "Value" "SPI"
 			(at 251.46 109.2199 0)
 			(effects
 				(font

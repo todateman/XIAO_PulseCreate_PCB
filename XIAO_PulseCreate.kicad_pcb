@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "XIAO PluseCreate PCB")
-		(date "2025-02-11")
-		(rev "1.02")
+		(date "2025-02-19")
+		(rev "1.03")
 		(company "Chibi-T International")
 		(comment 1 "Tomohiro Kusu")
 	)
@@ -1499,9 +1499,8 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 5.08 2.37 0)
-			(layer "F.Fab")
-			(hide yes)
+			(at 5.08 0 0)
+			(layer "F.SilkS")
 			(uuid "cfb153f2-c461-4a81-8f1f-664428bc35f3")
 			(effects
 				(font
@@ -2125,13 +2124,13 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 11.43 -2.54 90)
-			(layer "F.Fab")
+			(at 5.715 0 90)
+			(layer "F.SilkS")
 			(uuid "ec03ff0b-66ab-4376-b925-442767a9a727")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.65)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2511,9 +2510,8 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 5.08 2.37 0)
-			(layer "F.Fab")
-			(hide yes)
+			(at 5.08 0 0)
+			(layer "F.SilkS")
 			(uuid "cbe17edd-509b-4035-9d1c-0b8cbc865128")
 			(effects
 				(font
@@ -4472,9 +4470,9 @@
 				)
 			)
 		)
-		(property "Value" "2SK2232"
+		(property "Value" "IRLZ34N"
 			(at -0.205258 2.54 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "38fc378d-4754-482e-a17b-8380b3a0cb91")
 			(effects
 				(font
@@ -4834,8 +4832,8 @@
 				)
 			)
 		)
-		(property "Value" "MA735"
-			(at 0 17.145 180)
+		(property "Value" "SPI"
+			(at 0 15.875 180)
 			(layer "F.SilkS")
 			(uuid "ce9bc600-62c7-4177-ab62-8d0fdbd70952")
 			(effects
